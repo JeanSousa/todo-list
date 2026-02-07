@@ -1,0 +1,12 @@
+Dependencias instaladas:
+
+fastapi[all] = o fast api com ferramentas adicionais
+
+motor[srv] = Driver assincrono para mongodb em python, e usamos o SRV que adiciona
+suporte as configurações de conexão de strings do mongodb
+
+beanie = beanie é um ORM para mongodb construido sobre o motor, ele permite definir os  
+modelos de dados como classes python e fornece uma API intuitiva para operações com banco de dados
+
+aiostream = fornece ferramentas para trabalhar com fluxos assincronos o que pode ser  
+util ao lidar com grande numero de dados 
