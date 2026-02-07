@@ -10,3 +10,15 @@ modelos de dados como classes python e fornece uma API intuitiva para operaçõe
 
 aiostream = fornece ferramentas para trabalhar com fluxos assincronos o que pode ser  
 util ao lidar com grande numero de dados 
+
+
+Arquivo pyproject.toml = É um arquivo do padrão mais recente do ecossitema python, introduzido no PEP58.
+é um arquivo de configurações centralizados para projetos python substituindo muitos arquivos especificos de 
+ferramentas como 'set_python' e outros similares.
+
+Ex: 
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+essa parte adiciona o diretorio SRC ao caminho do python para executar os testes
